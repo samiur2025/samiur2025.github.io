@@ -1,0 +1,224 @@
+@extends('layouts.portfolio')
+
+@section('content')
+<!-- Main Hero Section -->
+<section class="hero">
+<div class="grid-bg"></div>
+<div class="line"></div>
+<div class="line"></div>
+<div class="line"></div>
+<div class="line"></div>
+<div class="line"></div>
+
+<div class="marquee-container">
+<div class="marquee">
+<span>DIMARZ</span><span>LEADS</span><span>AI</span><span>B2B</span>
+<span>DIMARZ</span><span>LEADS</span><span>AI</span><span>B2B</span>
+</div>
+</div>
+
+<div class="content">
+<div class="left-col">
+<div class="eyebrow"><span></span>Top Rated Freelancer on Upwork</div>
+<h1 class="name">
+<span class="line1">Samiur</span>
+<span class="line2">Rahman</span>
+</h1>
+<p class="tagline">Niche-Targeted <em>B2B Lead Generation</em> That Converts</p>
+<p class="description">
+I specialize in creating hyper-targeted, verified B2B prospect lists using advanced AI tools. Combining data intelligence with human expertise to deliver qualified leads that drive revenue across multiple industries.
+</p>
+<div class="cta-group">
+<a href="#" class="cta-btn primary" id="openContact">
+Start a Project
+<span class="arrow">→</span>
+</a>
+<a href="#" class="cta-btn" id="openServices">
+My Services
+<span class="arrow">→</span>
+</a>
+<a href="https://www.upwork.com/freelancers/~01d4859160aaac68a7?mp_source=share" target="_blank" rel="noopener noreferrer" class="cta-btn icon-btn" title="View Upwork profile">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c-.002 1.406-1.141 2.546-2.547 2.548-1.405-.002-2.543-1.143-2.545-2.548V3.492H0v7.112c0 2.914 2.37 5.303 5.281 5.303 2.913 0 5.283-2.389 5.283-5.303v-1.19c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109 3 0 5.439-2.452 5.439-5.45 0-3-2.439-5.439-5.439-5.439z"/></svg>
+</a>
+<a href="https://www.linkedin.com/in/samiur-rahman-9943991b8" target="_blank" rel="noopener noreferrer" class="cta-btn icon-btn" title="View LinkedIn profile">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+</a>
+<a href="https://github.com/samiur1982" target="_blank" rel="noopener noreferrer" class="cta-btn icon-btn" title="View GitHub profile">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+</a>
+<a href="mailto:samiur@live.com" class="cta-btn icon-btn" title="Send Email">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-5.141-5.929h21.036l-10.518 8.526-10.518-8.526zm3.142 4.246l-4.624-3.746v9.458l4.624-5.712zm1.748 1.417l5.628 4.562 5.628-4.562 4.372 5.405h-20l4.372-5.405z"/></svg>
+</a>
+</div>
+</div>
+
+<div class="right-col">
+<div class="image-container">
+<div class="image-frame"></div>
+<img src="{{ asset('images/profile.png') }}" alt="Samiur Rahman" class="hero-image">
+<div class="image-overlay">
+<div class="label">Precision Rate</div>
+<div class="value">98%</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="stats-bar">
+<div class="stat"><div class="stat-number">98%</div><div class="stat-label">Accuracy</div></div>
+<div class="stat"><div class="stat-number">200+</div><div class="stat-label">Projects Done</div></div>
+<div class="stat"><div class="stat-number">&lt;72h</div><div class="stat-label">Avg. Delivery</div></div>
+<div class="stat"><div class="stat-number">Multiple</div><div class="stat-label">Industries</div></div>
+<div class="stat"><div class="stat-number">Multiple</div><div class="stat-label">Data Points</div></div>
+</div>
+</section>
+
+<!-- ===== CONTACT MODAL ===== -->
+<div class="modal-overlay contact-modal" id="contactModal">
+<div class="modal-content">
+<button class="modal-close" data-close>&times;</button>
+<div class="modal-header">
+<div class="modal-tag">Get In Touch</div>
+<h2 class="modal-title">Start a Project</h2>
+</div>
+<form id="contactForm" action="{{ route('contact.submit') }}" method="POST">
+@csrf
+<div class="form-group">
+<label class="form-label">Your Name</label>
+<input type="text" name="name" class="form-input" placeholder="John Doe" required>
+</div>
+<div class="form-group">
+<label class="form-label">Email Address</label>
+<input type="email" name="email" class="form-input" placeholder="john@company.com" required>
+</div>
+<div class="form-group">
+<label class="form-label">Request Description</label>
+<textarea name="description" class="form-textarea" placeholder="Tell me about your project, target audience, and what you're looking for..." required></textarea>
+</div>
+<button type="submit" class="form-submit">
+Submit Request
+<span class="arrow">→</span>
+</button>
+</form>
+</div>
+</div>
+
+<!-- ===== SERVICES MODAL ===== -->
+<div class="modal-overlay services-modal" id="servicesModal">
+<div class="modal-content">
+<button class="modal-close" data-close>&times;</button>
+
+<div class="modal-header">
+<div class="modal-tag">What I Offer</div>
+<h2 class="modal-title">My Services</h2>
+<p class="modal-subtitle">Three core competencies. One commitment to excellence.</p>
+</div>
+
+<div class="services-grid">
+<!-- Service 1: Lead Generation -->
+<div class="service-card">
+<div class="service-left">
+<div class="service-number">01</div>
+<div class="service-icon-wrap">
+<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+</div>
+</div>
+<div class="service-right">
+<h3 class="service-title">B2B Lead Generation</h3>
+<div class="service-body">
+<p>I build hyper-targeted prospect databases that fuel your sales pipeline with qualified decision-makers. Every contact is verified, enriched, and ready for outreach.</p>
+<p>Using AI-powered tools alongside meticulous manual research, I identify C-suite executives, VPs, Directors, and Managers across SaaS, fintech, healthcare, manufacturing, and beyond.</p>
+</div>
+<ul class="service-features">
+<li>Verified Email & Direct Dial</li>
+<li>Multiple Data Points Per Lead</li>
+<li>98% Deliverability Rate</li>
+<li>Under 72h Turnaround</li>
+</ul>
+<div class="service-actions">
+<a href="{{ route('sample.lead') }}" class="service-btn primary">
+View Sample
+<span class="arrow">→</span>
+</a>
+<a href="https://dimarz.com/lead-gen" class="service-btn" target="_blank" rel="noopener noreferrer">
+Learn More
+<span class="arrow">→</span>
+</a>
+</div>
+</div>
+</div>
+
+<!-- Service 2: Data Entry & VA -->
+<div class="service-card">
+<div class="service-left">
+<div class="service-number">02</div>
+<div class="service-icon-wrap">
+<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+</div>
+</div>
+<div class="service-right">
+<h3 class="service-title">Data Entry & Virtual Assistant</h3>
+<div class="service-body">
+<p>I transform chaotic data into pristine, actionable systems. From CRM migrations to spreadsheet automation, every record is handled with surgical precision.</p>
+<p>Beyond data, I serve as your remote operations partner — managing emails, calendars, research, and administrative workflows so you can focus on growth.</p>
+</div>
+<ul class="service-features">
+<li>CRM Data Management</li>
+<li>Spreadsheet Automation</li>
+<li>Web Research & Cleanup</li>
+<li>Full VA Support</li>
+</ul>
+<div class="service-actions">
+<a href="#" class="service-btn primary">
+View Sample
+<span class="arrow">→</span>
+</a>
+<a href="https://dimarz.com/data-entry" class="service-btn" target="_blank" rel="noopener noreferrer">
+Learn More
+<span class="arrow">→</span>
+</a>
+</div>
+</div>
+</div>
+
+<!-- Service 3: Web Development -->
+<div class="service-card">
+<div class="service-left">
+<div class="service-number">03</div>
+<div class="service-icon-wrap">
+<svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+</div>
+</div>
+<div class="service-right">
+<h3 class="service-title">Web Development</h3>
+<div class="service-body">
+<p>I craft digital experiences where aesthetics meet engineering. Every pixel is purposeful, every interaction is intentional, every line of code is optimized.</p>
+<p>From conversion-focused landing pages to complex web applications, I build with Laravel and WordPress — fully responsive, accessible, and blazing fast.</p>
+</div>
+<ul class="service-features">
+<li>Laravel & WordPress Development</li>
+<li>Responsive & Accessible</li>
+<li>Core Web Vitals Optimized</li>
+<li>Ongoing Maintenance</li>
+</ul>
+<div class="service-actions">
+<a href="#" class="service-btn primary">
+View Sample
+<span class="arrow">→</span>
+</a>
+<a href="https://dimarz.com/web-development" class="service-btn" target="_blank" rel="noopener noreferrer">
+Learn More
+<span class="arrow">→</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="services-footer">
+<span class="services-footer-text">Trusted by clients across multiple industries</span>
+<a href="#" class="services-footer-cta" id="footerContact">Start a Project →</a>
+</div>
+</div>
+</div>
+@endsection
